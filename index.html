@@ -7,6 +7,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="header">PIX</header>
+    <main>
+        <div class="settings">
+            <div class="input_label">
+                <input type="color" id="pen_color_input">
+                <label for="pen_color">Pen Color</label>
+            </div>
+
+            <div class="input_label">
+                <input type="color" id="background_color_input">
+                <label for="background_color">Background Color</label> 
+            </div>
+
+            <button id="toggle_pen_button" class="active_button">Toggle Pen</button>
+            <button id="toggle_eraser_button">Toggle Eraser</button>
+            <button id="toggle_shading_button">Toggle Shading</button>
+            <button id="toggle_lighten_button">Toggle Lighten</button>
+            <button id="toggle_fill_button">Toggle Filling</button>
+
+
+            <input type="range" id="grid_size">
+            <label for="grid_size">Grid Size : <span id="grid_size_text">24</span> x <span id="grid_size_text">24</span></label>
+            
+            <button id="toggle_grid_lines_button" class="just_click">Toggle Grid Lines</button>
+
+            <button id="clear_button" class="just_click">Clear</button>
+        </div>
+        <div class="canvas"></div>
+    </main>
+    <footer class="footer">have fun!</footer>
     <script src="index.js"></script>
 </body>
 </html>

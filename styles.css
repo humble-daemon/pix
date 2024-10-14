@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.header{
+    font-family: "Jersey 25", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    padding: 0.15625em;
+
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
+}
+
+.settings{
+    border: 1px solid rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    height: 43.75em;
+    align-items:baseline;
+    padding: 2em;
+    gap: 1.3em;
+    font-size: 1em;
+
+}
+.input_label input{
+    margin-right: 1em;
+}
+
+.settings button{
+    padding: 0.6em;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    align-self: stretch;
+    border-radius: 0.3em;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+button.active_button, button.just_click:active{
+    color: black;
+    background-color: white;
+}
+
+.canvas{
+    border: 1px solid rgba(194, 174, 174, 0.541);
+    height: 43.75em;
+    width: 43.75em;
+}
+
+.footer{
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    padding: 0.625em;
+}
